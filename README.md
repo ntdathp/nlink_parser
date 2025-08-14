@@ -63,9 +63,9 @@
 按如下步骤克隆代码并编译
 
     cd catkin_workspace/src
-    git clone --recursive https://github.com/nooploop-dev/nlink_parser.git 
+    git clone git@github.com:ntdathp/nlink_parser.git
     cd ../
-    catkin_make
+    catkin build
     source devel/setup.bash
 
 注意，每次打开新命令行窗口都需要执行 `source devel/setup.bash` 重新获取该ROS工作空间环境变量.
